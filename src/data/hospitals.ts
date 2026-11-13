@@ -1,0 +1,58 @@
+import type { Hospital } from "./types";
+
+export const hospitals: Hospital[] = [
+  {
+    id: "1",
+    name: "Life Care Specialty Hospital",
+    distance: "2.1 km",
+    services: ["ICU", "Emergency", "Cardiology", "Ambulance"],
+    contact: "+91 83859 92233",
+    mapsUrl: "https://maps.google.com",
+    filters: ["icu", "emergency", "ambulance"],
+  },
+  {
+    id: "2",
+    name: "Taluka Government Hospital Bhatkal",
+    distance: "3.5 km",
+    services: ["Emergency", "ICU", "General Medicine"],
+    contact: "08385 26460",
+    mapsUrl: "https://maps.google.com",
+    filters: ["emergency", "icu"],
+  },
+  {
+    id: "3",
+    name: "Welfare Hospital",
+    distance: "4.0 km",
+    services: ["Emergency", "Dental Care", "General Medicine"],
+    contact: "08385 226690",
+    mapsUrl: "https://maps.google.com",
+    filters: ["emergency"],
+  },
+  {
+    id: "4",
+    name: "Amita Hospital",
+    distance: "4.3 km",
+    services: ["Emergency", "Pregnancy Care", "General Surgery"],
+    contact: "08385 228899",
+    mapsUrl: "https://maps.google.com",
+    filters: ["emergency"],
+  },
+  {
+    id: "5",
+    name: "RNS Hospital Murdeshwar",
+    distance: "16 km",
+    services: ["ICU", "Emergency", "Cardiology", "Blood Bank"],
+    contact: "08385 261266",
+    mapsUrl: "https://maps.google.com",
+    filters: ["icu", "emergency", "blood-bank"],
+  },
+  {
+    id: "6",
+    name: "Nishat Nursing Home",
+    distance: "4.7 km",
+    services: ["ICU", "Emergency", "Orthopedics"],
+    contact: "08385 26690",
+    mapsUrl: "https://maps.google.com",
+    filters: ["icu", "emergency"],
+  },
+];
